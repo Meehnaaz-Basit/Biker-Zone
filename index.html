@@ -254,10 +254,10 @@
       </div>
     </header>
     <main>
-      <section class="pt-32">
+      <section class="lg:pt-32 pt-20">
         <div class="container mx-auto max-w-[1200px] space-y-4">
           <h2
-            class="text-3xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
+            class="text-2xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
           >
             Featured Bikes In This Year
           </h2>
@@ -266,24 +266,26 @@
           >
             best bike collection
           </p>
-          <div class="bike-image pt-12 flex gap-3 justify-between items-center">
-            <div class="image-item">
+          <div
+            class="bike-image pt-7 lg:pt-12 flex lg:flex-row flex-col gap-3 justify-between items-center"
+          >
+            <div class="image-item mt-6">
               <img src="images/others/feature-bike.png" alt="" />
             </div>
-            <div class="image-item">
+            <div class="image-item mt-6">
               <img src="images/others/feature-bike.png" alt="" />
             </div>
-            <div class="image-item">
+            <div class="image-item mt-6">
               <img src="images/others/feature-bike.png" alt="" />
             </div>
           </div>
         </div>
       </section>
       <!--  -->
-      <section class="pt-32">
+      <section class="lg:pt-32 pt-20">
         <div class="container mx-auto max-w-[1200px]">
           <h2
-            class="text-3xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
+            class="text-2xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
           >
             latest news
           </h2>
@@ -351,10 +353,10 @@
           </div>
         </div>
       </section>
-      <section class="happy-clients pt-32">
+      <section class="happy-clients lg:pt-32 pt-20">
         <div class="container mx-auto max-w-[1200px]">
           <h2
-            class="text-3xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
+            class="text-2xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
           >
             happy <span class="text-[#e76f51]">clients says</span>
           </h2>
@@ -452,6 +454,125 @@
           </div>
         </div>
       </section>
+      <section class="faq lg:pt-32 pt-20">
+        <div class="container mx-auto max-w-[1200px]">
+          <h2
+            class="text-2xl md:text-4xl lg:text-5xl text-black font-poppins font-semibold text-center capitalize"
+          >
+            frequently asked <span class="text-[#e76f51]">questions</span>
+          </h2>
+          <div
+            class="faq-content flex lg:flex-row flex-col justify-between items-center pt-12"
+          >
+            <div class="faq-image basis-1/2 mt-4">
+              <img src="images/others/faq.png" alt="" />
+            </div>
+            <div class="faq-accordian basis-1/2 mt-4">
+              <!--  -->
+              <div
+                class="collapse collapse-arrow bg-white border border-[#d5e5fb] rounded-md mt-3 p-3 pb-0"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div
+                  class="collapse-title text-xl font-inter text-[#383838] font-medium"
+                >
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div
+                  class="collapse-content text-[#7e848c] font-inter leading-8"
+                >
+                  <p>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <!--  -->
+              <div
+                class="collapse collapse-arrow bg-white border border-[#d5e5fb] rounded-md mt-3 p-3 pb-0"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div
+                  class="collapse-title text-xl font-inter text-[#383838] font-medium"
+                >
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div
+                  class="collapse-content text-[#7e848c] font-inter leading-8"
+                >
+                  <p>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <!--  -->
+              <div
+                class="collapse collapse-arrow bg-white border border-[#d5e5fb] rounded-md mt-3 p-3 pb-0"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div
+                  class="collapse-title text-xl font-inter text-[#383838] font-medium"
+                >
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div
+                  class="collapse-content text-[#7e848c] font-inter leading-8"
+                >
+                  <p>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="lg:mt-28 mt-20 text-white bg-[#0b0d17] font-manrope py-14">
+      <div class="container mx-auto max-w-[1200px]">
+        <div class="footer-content flex lg:flex-row flex-col justify-between">
+          <div class="footer-menu space-y-4">
+            <div class="upper capitalize space-x-5">
+              <a href="#">download</a>
+              <a href="#">license</a>
+            </div>
+            <div class="middle capitalize space-x-5">
+              <a href="#">about</a>
+              <a href="#">features</a>
+              <a href="#">pricing</a>
+              <a href="#">career</a>
+              <a href="#">help</a>
+              <a href="#">privacy policy</a>
+            </div>
+          </div>
+          <div class="footer-app capitalize space-y-3">
+            <p>get the app</p>
+            <div class="w-36">
+              <img src="images/others/ios.png" alt="" />
+            </div>
+            <div class="w-36">
+              <img src="images/others/android.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <p
+          class="text-sm text-[#d9dbe1] lg:pt-1 pt-10 text-center lg:text-left"
+        >
+          © 2020 bike. All rights reserved
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
